@@ -40,7 +40,9 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install 
+          npm install react-router-dom react-bootstrap
 
       - name: Build project
         run: npm run build-all
