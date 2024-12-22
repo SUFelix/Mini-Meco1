@@ -20,7 +20,7 @@ initializeDb().then((db) => {
   console.log("Database initialized, starting server...");
 
   app.get('/', (req, res) => {
-    res.send('Server is running!');
+    res.send('Server is running very smoothly!');
   });
 
   app.get('/semesters', (req, res) => { getSemesters(req, res, db) });
