@@ -11,3 +11,5 @@ declare module '@radix-ui/react-select';
 declare module '@radix-ui/react-slider';
 declare module '@radix-ui/react-tabs';
 declare module 'tailwind-merge';
+
+declare module 'lucide-react';
