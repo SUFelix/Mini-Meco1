@@ -44,6 +44,9 @@ jobs:
           npm install 
           npm install react-router-dom react-bootstrap
 
+      - name: Run Development Server
+        run: npm run dev
+
       - name: Build project
         run: npm run build-all
 
