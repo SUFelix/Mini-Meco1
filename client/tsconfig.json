@@ -8,6 +8,7 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "@/*": [
         "./src/*"
