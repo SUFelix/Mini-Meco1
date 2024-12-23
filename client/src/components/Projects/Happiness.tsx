@@ -37,7 +37,7 @@ const Happiness: React.FC = (): React.ReactNode => {
   const [activeTab, setActiveTab] = useState("User");
   const [projectGroups, setProjectGroups] = useState<string[]>([]);
   const [selectedProjectGroup, setSelectedProjectGroup] = useState<string>("");
-  const [values, setValues] = useState<typeof DateObject[]>([]);
+  const [values, setValues] = useState<DateObject[]>([]);
   const [happiness, setHappiness] = useState<number>(0);
   const [happinessData, setHappinessData] = useState<any[]>([]);
   const [currentSprint, setCurrentSprint] = useState<{
