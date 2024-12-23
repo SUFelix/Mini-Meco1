@@ -8,6 +8,7 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "noImplicitAny": false,
+    "types": ["vite/client"],
     "paths": {
       "@/*": [
         "./src/*"
