@@ -13,4 +13,4 @@ declare module '@radix-ui/react-tabs';
 declare module 'tailwind-merge';
 
 declare module 'lucide-react';
-declare module 'moment';
+//declare module 'moment';
