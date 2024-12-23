@@ -8,8 +8,7 @@
     "dev": "tsc && nodemon dist/server.js",
     "build": "tsc",
     "client": "npm run dev --prefix ../client",
-    "server": "nodemon dist/server.js",
-    "test:server": "cd server && npm run test"
+    "server": "nodemon dist/server.js"
   },
   "repository": {
     "type": "git",
